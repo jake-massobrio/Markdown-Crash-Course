@@ -1,21 +1,90 @@
-# Kibana Challenge
+<!-- Headings -->
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
 
+<!-- Italics -->
+*This text* is italic
+
+_This text is italic
+
+<!-- Strong -->
+**This text** is strong
+
+__This text__ is strong
+
+<!-- Strikethrough -->
+~~This text~~ is strikethrough
+
+<!-- Horizontal Rule -->
 ---
-# Discover
-## 1. Make a search for B6 transactions using the "partition" term.
 
-## 2. In the last 3 days, there was an issue with a B6 EPR that resulted in a large amount of the error USG_AUTHORIZATION_FAILED. Identify this EPR.
+___
 
----
-# Visualize
+<!-- Escape Characters -->
+\*This text\* is not italic
 
-## 3. Create a data table that lists all systems logged in Kibana
+<!-- Blockquote -->
+>This is a quote
 
-## 4. Create a data table with all of the services AR has used in the last 3 days.
+<!-- Links -->
+[Traversy Media](http://www.traversymedia.com)
 
-## 5. Create a line graph reflecting transaction count over time for LA in the last 3 days.
+[Traversy Media](http://www.traversymedia.com "Traversy Media")
 
----
-# General
+<!-- UL -->
+* Item 1
+* Item 2
+* Item 3
+    * Nested Item 1
+    * Nested Item 2
+  
+<!-- OL -->
+1. Item 1
+2. Item 2
+3. Item 3
 
-## 6. Identify the largest user and pcc of SabreCommandLLSRQ
+<!-- OL -->
+1. Item 1
+1. Item 2
+1. Item 3
+
+<!-- Inline Code Block -->
+`<p>This is a paragraph</p>`
+
+<!-- Images -->
+![Markdown Logo](https://markdown-here.com/img/icon256.png)
+
+<!-- Github Markdown -->
+
+<!-- Code Blocks -->
+```bash
+    npm install
+
+    npm start
+```
+
+```javascript
+function add(num1, num2) {
+    return num1 + num2;
+}
+```
+
+```python
+def add(num1, num2):
+    return num1 + num2
+```
+
+<!-- Tables -->
+| Name     | Email          |
+| -------- | -------------- |
+| John Doe | john@gmail.com |
+| Jane Doe | jane@gmail.com |
+
+<!-- Task Lists -->
+* [x] Task 1
+* [x] Task 2
+* [ ] Task 3
